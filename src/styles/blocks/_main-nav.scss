@@ -1,0 +1,24 @@
+.main-nav {
+  
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    margin-left: 60px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  a {
+    color: $color-white;
+    text-decoration: none;
+  }
+}
+
+
